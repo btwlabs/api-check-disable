@@ -1,0 +1,24 @@
+{
+  "name": "api-check-disable",
+  "dependencies": {
+    "api-check": "^7.0.0"
+  },
+  "main": "apiCheck-disable.js",
+  "homepage": "https://github.com/btwlabs/api-check-disable",
+  "authors": [
+    "Ted Benice <ted@bythewaylabs.com>"
+  ],
+  "description": "Disables apiCheck if included before any apiCheck instances are created  by other bower dependencies.",
+  "keywords": [
+    "api-check",
+    "apiCheck.js"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
